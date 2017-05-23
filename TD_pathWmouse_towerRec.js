@@ -203,8 +203,9 @@ function setup() {
 
 function draw() {
     if (setupMode == -3) {
+        background(255,255,255);
         capImage = capture.get();
-    image(capImage,540,349,100,60);
+    image(capImage,440,249,300,180);
     color = capImage.get(20,20);
     print(color);
     }
