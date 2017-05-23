@@ -201,6 +201,7 @@ function setup() {
 }
 
 function draw() {
+    image(iimage,200,200,200,200);
     var l;
     var w;
     print(setupMode);
@@ -301,7 +302,7 @@ function getTowerColor() {
     stroke(0);
     rect(600,200,20,20);
     iimage = capture.get();
-    image(iimage,200,200,200,200);
+    
     print(towerColor);
 }
 
