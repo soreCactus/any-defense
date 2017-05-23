@@ -6,7 +6,7 @@ var capture;
 var iimage;
 var towerColor;
 var resX = 640;
-var resY = 840;
+var resY = 400;
 var timer = 0;
 var maxDistance = 2; //the distance between each point in the path
 var frmRate = 20;
