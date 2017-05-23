@@ -298,7 +298,7 @@ function getTowerColor() {
     stroke(0);
     rect(600,200,20,20);
     towerColor = capture.get(610,210);
-    print(towerColor);
+    print("color: " + towerColor);
 }
 
 function lookForTowers() {
