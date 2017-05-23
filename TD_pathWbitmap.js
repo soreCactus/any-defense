@@ -201,7 +201,8 @@ function setup() {
 }
 
 function draw() {
-    image(iimage,200,200,200,200);
+    image(iimage,15,12,207,203);
+    print('VERVERVERVERVERVERVERVERVERVERVVER');
     var l;
     var w;
     print(setupMode);
