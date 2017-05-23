@@ -202,7 +202,8 @@ function setup() {
 
 function draw() {
     image(iimage,15,12,207,203);
-    print('VERVERVERVERVERVERVERVERVERVERVVER');
+   towerColor = iimage.get(100,100);
+    print(towerColor);
     var l;
     var w;
     print(setupMode);
