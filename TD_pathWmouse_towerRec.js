@@ -329,6 +329,7 @@ function getTowerColor() {
     }
     aveB = aveB / 25;
     towerColor = color(aveR,aveG,aveB);
+    setupMode = -1;
     print(towerColor);
 }
 
