@@ -301,7 +301,7 @@ function getTowerColor() {
     stroke(0);
     rect(600,200,20,20);
     iimage = capture.get();
-    image(iimage,200,200);
+    image(iimage,200,200,200,200);
     print(towerColor);
 }
 
