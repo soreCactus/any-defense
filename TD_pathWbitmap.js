@@ -299,7 +299,6 @@ function getTowerColor() {
     stroke(0);
     rect(600,200,20,20);
     towerColor = capture.get(610,210);
-    towerColor = canvas.get(500,200);
     print(towerColor);
 }
 
