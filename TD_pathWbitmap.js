@@ -5,7 +5,7 @@ var x, y, i, gridx, gridy, namer, a, b, towerType;
 var capture;
 var iimage;
 var towerColor;
-var resX = 1280;
+var resX = 640;
 var resY = 840;
 var timer = 0;
 var maxDistance = 2; //the distance between each point in the path
@@ -299,7 +299,6 @@ function draw() {
 
 function getTowerColor() {
     background(255,255,255);
-    drawGrid();
     fill(255);
     stroke(0);
     rect(600,200,20,20);
