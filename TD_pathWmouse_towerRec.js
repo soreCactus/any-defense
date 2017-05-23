@@ -302,7 +302,7 @@ function draw() {
 }
 
 function getTowerColor() {
-    var colorPoints[];
+    var colorPoints = [];
     var aveR = 0;
     var aveG = 0;
     var aveB = 0;
