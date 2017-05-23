@@ -203,7 +203,7 @@ function setup() {
 function draw() {
     
     iimage = capture.get();
-    image(iimage,150,410,207,203);
+    image(iimage,540,349,100,60);
    towerColor = iimage.get(10,10);
     print(towerColor);
     var l;
