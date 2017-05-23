@@ -3,6 +3,7 @@
 
 var x, y, i, gridx, gridy, namer, a, b, towerType;
 var capture;
+var iimage;
 var towerColor;
 var resX = 1280;
 var resY = 840;
@@ -295,10 +296,12 @@ function draw() {
 
 function getTowerColor() {
     background(255,255,255);
+    drawGrid();
     fill(255);
     stroke(0);
     rect(600,200,20,20);
-    towerColor = capture.get(610,210);
+    iimage = capture.get();
+    image(iimage,200,200);
     print(towerColor);
 }
 
