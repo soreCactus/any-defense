@@ -202,7 +202,7 @@ function setup() {
 
 function draw() {
     image(iimage,15,12,207,203);
-   towerColor = iimage.get(100,100);
+   towerColor = iimage.get(500,200);
     print(towerColor);
     var l;
     var w;
