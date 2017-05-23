@@ -2,6 +2,7 @@
 //place towers before round, then wave comes. in between waves, can move/add towers
 
 var x, y, i, gridx, gridy, namer, a, b, towerType;
+var capture;
 var towerColor;
 var resX = 1280;
 var resY = 840;
@@ -187,7 +188,7 @@ function setup() {
         grid[n] = new Array(resY/10).fill(0);  
     }
     capture = createCapture(VIDEO);
-    capture.size(resX, resY);
+    capture.size(300, 300);
     getTowerColor();
     print(grid);
    // img = loadImage("plazaMap.png");
