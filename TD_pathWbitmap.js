@@ -189,7 +189,7 @@ function setup() {
         grid[n] = new Array(resY/10).fill(0);  
     }
     capture = createCapture(VIDEO);
-    capture.size(300, 300);
+    capture.hide();
     getTowerColor();
     print(grid);
    // img = loadImage("plazaMap.png");
@@ -203,7 +203,7 @@ function setup() {
 function draw() {
     
     iimage = capture.get();
-    image(iimage,150,12,207,203);
+    image(iimage,150,410,207,203);
    towerColor = iimage.get(10,10);
     print(towerColor);
     var l;
