@@ -1,10 +1,22 @@
-var foo = new p5.Speech();
+var talk = new p5.Speech();
+var foo = new P5.SpeechRec(); // speech recognition object (will prompt for mic access)
+foo.onResult = showResult; // bind callback function to trigger when speech is recognized
+
 
 function setup() {
     
-    foo.speak('Hello World');
+    talk.speak('Hello World');
 }
 
 function draw() {
 
+}
+
+function keyPressed() {
+    foo.start(); // start listening
+}
+
+function showResult()
+{
+   console.log(foo.resultString); // log the result
 }
