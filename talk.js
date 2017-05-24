@@ -1,4 +1,4 @@
-var foo = new P5.Speech();
+var foo = new p5.Speech();
 
 function setup() {
     
