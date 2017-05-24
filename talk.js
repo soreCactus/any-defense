@@ -1,5 +1,5 @@
 var talk = new p5.Speech();
-var foo = new P5.SpeechRec(); // speech recognition object (will prompt for mic access)
+var foo = new p5.SpeechRec(); // speech recognition object (will prompt for mic access)
 foo.onResult = showResult; // bind callback function to trigger when speech is recognized
 
 
