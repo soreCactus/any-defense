@@ -19,7 +19,9 @@ function keyPressed() {
 function showResult()
 {
    console.log(foo.resultString); // log the result
-   if (foo.resultString.includes('name')) {
-       talk.speak('what a stupid name');
+   if (foo.resultString.includes('your name')) {
+       talk.speak('my name is Charlene');
+   } else if (foo.resultString.includes('my name')) {
+       talk.speak('what a dumb name');
    }
 }
