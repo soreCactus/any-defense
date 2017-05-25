@@ -5,7 +5,7 @@ var x, y, i, gridx, gridy, namer, a, b, towerType;
 var capture;
 var capImage;
 var towerColor;
-var color;
+var col;
 var resX = 640;
 var resY = 400;
 var timer = 0;
@@ -206,8 +206,8 @@ function draw() {
         background(255,255,255);
         capImage = capture.get();
     image(capImage,440,249,300,180);
-    color = capImage.get(20,20);
-    print(color);
+    col = capImage.get(20,20);
+    print(col);
     }
     var l;
     var w;
@@ -330,6 +330,10 @@ function getTowerColor() {
     aveB = aveB / 25;
     towerColor = color(aveR,aveG,aveB);
     setupMode = -1;
+    print("follows");
+    print(aveR);
+    print(aveG);
+    print(aveB);
     print(towerColor);
 }
 
